@@ -3,7 +3,7 @@ cpu_usage = 87.5
 ram_go = 16
 ram_utilisee_go = 14
 en_ligne = True
-ram_pourcentage = ram_pourcent = ram_utilisee_go / ram_go * 100
+ram_pourcentage = ram_utilisee_go / ram_go * 100
 if cpu_usage >= 90 :
     print(f"CPU : CRITIQUE — {cpu_usage}%")
 elif cpu_usage >= 75 :
